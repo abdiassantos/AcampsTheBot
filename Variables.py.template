@@ -1,0 +1,14 @@
+# User from postgresql
+user = '' 
+
+# Password from postgresql
+password = '' 
+
+# Host address from postgresql
+host = ''
+
+# Postgresql database name
+database = ''
+
+# Bot Father token from the bot that you will use
+botToken = ''
