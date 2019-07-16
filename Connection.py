@@ -23,7 +23,7 @@ class Connection(object):
 
     def nextPk(self, table, key):
         sql = 'select max(' + key + ') from' + table
-        rs = self.consultar(sql)
+        rs = self.consult(sql)
         pk = rs.first()
         return pk + 1
 
